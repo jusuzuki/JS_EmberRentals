@@ -4,6 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'super-rentals',
     environment: environment,
+    firebase: 'https://fiery-torch-7755.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
