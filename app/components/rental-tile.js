@@ -1,11 +1,16 @@
+import Ember from 'ember';
+
 export default Ember.Component.extend({
   isImageShowing: false,
- actions: {
+   actions: {
     imageShow: function() {
       this.set('isImageShowing', true);
     },
     imageHide: function() {
       this.set('isImageShowing', false);
+    },
+    updateRental(rental,params) {
+      this.sendAction('updateRental', rental, params);
     },
     delete(rental) {
       if (confirm('Are you sure you want to delete this rental?')) {

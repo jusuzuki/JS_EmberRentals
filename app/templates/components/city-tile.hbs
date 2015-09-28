@@ -1,0 +1,4 @@
+<li>{{#link-to 'city' city.id}}{{city.cityName}} in {{city.country}} visit:{{city.attractions}} {{/link-to}}
+  {{update-city city=city updateCity="updateCity"}}
+  <button {{action 'delete' city}}>Delete</button>
+</li>

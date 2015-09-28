@@ -1,0 +1,10 @@
+{ "cities": [{
+    "name": "Portland",
+    "attractions": "Epicodus",
+    "image": "http://www.thegreatcountryrun.com/wp-content/uploads/2014/08/portland.png"
+  },{
+    "name": "Storybrooke",
+    "attractions": "Evil Regals",
+    "image": "http://static.panoramio.com/photos/large/95219730.jpg"
+  }]
+}

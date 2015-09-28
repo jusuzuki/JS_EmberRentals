@@ -1,0 +1,7 @@
+{{outlet}}
+<h2>More information about {{model.owner}}'s {{model.type}}</h2>
+
+{{rental-detail rental=model}}
+
+{{updateRental-rental rental=rental updateRental="updateRental"}}
+<button {{action 'delete' rental}}>Delete</button>
